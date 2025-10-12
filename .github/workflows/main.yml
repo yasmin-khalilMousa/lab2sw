@@ -1,9 +1,10 @@
 name: yasmin
 on: push
 jobs:
-  my job:
-   rins-on : ubuntu-latest
+  my-job:
+   runs-on : ubuntu-latest
    steps:
-     - name: "my-step
+     - name: my-step
        run: echo "hello world"
+    
        
