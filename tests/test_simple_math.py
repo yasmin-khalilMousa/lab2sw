@@ -19,6 +19,7 @@ def test_divide():
     assert SimpleMath.divide(9, 3) == 3
 
 
+
 def test_divide_by_zero():
     with pytest.raises(ValueError):
         SimpleMath.divide(1, 0)
